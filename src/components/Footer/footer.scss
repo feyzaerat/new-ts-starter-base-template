@@ -1,7 +1,9 @@
 .footer-layout{
-    padding: 0.5rem;
-    position: absolute;
+    background: var(--pure-white-color);
+    left: 0;
     bottom:0;
-    background: var(--sub-text-color-dark);
-    width: 100%;
+    margin-top: -8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    overflow: hidden;
+    position: fixed;
 }

@@ -16,4 +16,19 @@
   width: 100%;
   max-width: -moz-fit-content;
   max-width: fit-content;
+}
+
+.card__category {
+  overflow: hidden;
+  max-width: 440px;
+}
+.card__category img {
+  height: auto;
+  max-height: 240px;
+  min-height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=cards.css.map */

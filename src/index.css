@@ -19,6 +19,7 @@ body {
   top: 0;
   left: 0;
   font-family: var(--font-body);
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {

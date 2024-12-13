@@ -54,4 +54,10 @@
   .f-direction-row{
     flex-direction: row;
   }
+  @media screen and (max-width: 940px) {
+    .grid-column-two {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
 }

@@ -13,10 +13,10 @@ const CategoryCard: React.FC<CategoryCardProps> = ({
 }) => {
   return (
     <>
-      <div className="card__category">
-        <h3 className="card__category__title">{title}</h3>
-        <img src={imageUrl} alt={title} className="card__category__img" />
-        <p className="card__category__description">{description}</p>
+      <div className="card__category d-flex f-direction-column gap-05 padding-05">
+        <h3 className="card__category__title sub-head sub-head-light-mode">{title}</h3>
+        <img src={imageUrl} alt={title} className="card__category__img rounded-card w100" />
+        <p className="card__category__description text text-dark-mode">{description}</p>
       </div>
     </>
   );

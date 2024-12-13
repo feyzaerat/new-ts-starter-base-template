@@ -51,36 +51,21 @@ const Navbar: React.FC = () => {
             Home
           </NavLink>
           <NavLink 
-            to="/about" 
+            to="/" 
             className={({ isActive }) => (isActive ? "bold text-active" : "")}
           >
             About Me
           </NavLink>
           
           <NavLink 
-            to="/contact" 
+            to="/" 
             className={({ isActive }) => (isActive ? "bold text-active" : "")}
           >
             Contact
           </NavLink>
         </nav>
 
-        <div className="navbar__profile relative">
-          <button
-            className="navbar__profile-toggle borderless-btn middle-btn circle-btn light-btn"
-            onClick={toggleProfileMenu}
-          >
-            <HiOutlineUser />
-
-          </button>
-          {isProfileMenuOpen && (
-            <div className="navbar__profile-menu text-right absolute d-flex">
-              <Link to="#profile">Profile</Link>
-              <Link to="#settings">Settings</Link>
-              <Link to="#logout">Exit</Link>
-            </div>
-          )}
-        </div>
+       <p className="big-text italic small-text-light-mode text-danger">(BETA)</p>
 
         <button className="navbar__toggle" onClick={toggleMenu}>
           {isMenuOpen ? "×" : "☰"}

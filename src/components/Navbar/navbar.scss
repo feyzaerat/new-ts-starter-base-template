@@ -4,6 +4,7 @@
   //box-shadow: 0 2px 4px var(--sub-head-color-light);
   padding: 1rem 2rem;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   z-index: 1000;
 

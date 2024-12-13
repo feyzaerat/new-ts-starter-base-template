@@ -6,11 +6,11 @@ type Props = {};
 
 const HomePage = (props: Props) => {
   return (
-    <div className="home-layout padding-05 d-flex f-direction-column justify-center align-i-center">
+    <div className="padding-05 d-flex f-direction-column justify-center align-i-center padding-1 w100">
       <div className="header-layout">
         <p className="first-head header-light-mode">PORTFOLIOS</p>
       </div>
-      <div className="category__card__layout d-grid grid-column-two">
+      <div className="category__card__layout d-grid grid-column-two gap-5">
         {categories.map((category, index) => (
           <CategoryCard
             key={index}

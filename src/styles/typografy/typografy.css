@@ -103,6 +103,9 @@
 :root .text-success {
   color: var(--success-color);
 }
+:root .text-danger {
+  color: var(--danger-color);
+}
 :root .italic {
   font-style: italic;
 }

@@ -124,6 +124,15 @@
 :root .align-c-space-evenly {
   align-content: space-evenly;
 }
-:root .gap-1rem {
+:root .gap-05 {
+  gap: 0.5rem;
+}
+:root .gap-1 {
   gap: 1rem;
+}
+:root .gap-2 {
+  gap: 2rem;
+}
+:root .gap-5 {
+  gap: 5rem;
 }/*# sourceMappingURL=positions.css.map */
