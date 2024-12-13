@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stylish&family=Twinkle+Star&display=swap');
+:root {
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Roboto", sans-serif;
+  --font-brand: "Parisienne", cursive;
+  --first-head-font-size: 32px;
+  --sub-head-font-size: 20px;
+  --text-font-size: 14px;
+  --small-text-font-size: 11px;
+}
+:root h1,
+:root h2,
+:root h3,
+:root h4,
+:root h5,
+:root h6 {
+  font-family: var(--font-heading);
+}
+:root .first-head {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--first-head-font-size);
+}
+:root .sub-head {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--sub-head-font-size);
+}
+:root .text {
+  font-weight: 500;
+  font-size: var(--text-font-size);
+  font-family: var(--font-body);
+}
+:root .small-text {
+  font-weight: 400;
+  font-size: var(--small-text-font-size);
+  font-family: var(--font-body);
+}
+:root .text-light-mode {
+  font-size: var(--text-font-size);
+  color: var(--text-color-dark);
+}
+:root .text-light-mode:hover {
+  color: var(--text-color-dark--hover);
+}
+:root .text-dark-mode {
+  font-size: var(--text-font-size);
+  color: var(--text-color-light);
+}
+:root .text-dark-mode:hover {
+  color: var(--text-color-light--hover);
+}
+:root .small-text-light-mode {
+  color: var(--sub-text-color-light);
+}
+:root .small-text-light-mode:hover {
+  color: var(--sub-text-color-light--hover);
+}
+:root .small-text-dark-mode {
+  color: var(--text-color-light);
+}
+:root .small-text-dark-mode:hover {
+  color: var(--text-color-light--hover);
+}
+:root .header-dark-mode {
+  color: var(--sub-text-color-dark);
+}
+:root .header-dark-mode:hover {
+  color: var(--header-color-dark--hover);
+}
+:root .header-light-mode {
+  color: var(--header-color-light);
+}
+:root .header-light-mode:hover {
+  color: var(--sub-text-color-dark--hover);
+}
+:root .sub-head-dark-mode {
+  color: var(--sub-head-color-dark);
+}
+:root .sub-head-dark-mode:hover {
+  color: var(--sub-head-color-dark--hover);
+}
+:root .sub-head-light-mode {
+  color: var(--sub-head-color-light);
+}
+:root .sub-head-light-mode:hover {
+  color: var(--sub-head-color-light--hover);
+}
+:root .text-success {
+  color: var(--success-color);
+}
+:root .text-active {
+  color: var(--active-color);
+}/*# sourceMappingURL=typografy.css.map */

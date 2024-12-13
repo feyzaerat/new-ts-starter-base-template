@@ -1,0 +1,29 @@
+@import url("./styles/colors/colors.css");
+@import url("./styles/dimensions/dimensions.css");
+@import url("./styles/positions/positions.css");
+@import url("./styles/grids/display.css");
+@import url("./styles/spacings/spacings.css");
+@import url("./styles/typografy/typografy.css");
+@import url("./styles/cards/cards.css");
+/*@import url("./styles/buttons/buttons.css");
+
+
+
+@import url("./styles/core/core.css");
+@import url("./styles/cards/cards.css");*/
+
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  top: 0;
+  left: 0;
+  font-family: var(--font-body);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
