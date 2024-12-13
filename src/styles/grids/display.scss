@@ -33,19 +33,25 @@
   .grid-column-four {
     grid-template-columns: repeat(4, 1fr);
   }
+  .grid-column-percent-90 {
+    grid-template-columns: 90% 10%;
+  }
+  .grid-column-percent-75 {
+    grid-template-columns: 75% 25%;
+  }
   .grid-column-percent-25 {
     grid-template-columns: 25% 75%;
   }
   .grid-column-percent-15 {
     grid-template-columns: 15% 85%;
   }
-  .gap-05{
-    gap:0.5rem;
+  .grid-column-percent-12 {
+    grid-template-columns: 12% 88%;
   }
-  .gap-075{
-    gap:0.75rem;
+  .f-direction-column{
+    flex-direction: column;
   }
-  .gap-1{
-    gap:1rem;
+  .f-direction-row{
+    flex-direction: row;
   }
 }

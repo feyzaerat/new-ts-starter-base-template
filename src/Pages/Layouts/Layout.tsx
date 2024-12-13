@@ -9,12 +9,12 @@ const Layout = (props: Props) => {
   return (
     <>
       <Navbar />
-      <div className="d-grid grid-column-percent-15">
-        <Sidebar />
-        <div>
-          <Router />
-          <Footer />
+      <div className="d-flex f-direction-column justify-center align-i-center">
+        <div className="scrollable-layout">
+        <Router />
         </div>
+        
+        <Footer />
       </div>
     </>
   );

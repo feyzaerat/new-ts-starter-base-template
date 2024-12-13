@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
       <div className="navbar__container w-100 justify-space-around">
         <div className="navbar__logo w-100 align-i-center  d-flex">
           <img src={logo} className="w64" alt="logo" />
-          <span>Simple Linear Regression</span>
+          <span>Portfolio</span>
         </div>
         <nav
           className={`justify-space-evenly navbar__links ${isMenuOpen ? "active" : ""}`}

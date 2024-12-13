@@ -1,32 +1,19 @@
-.card {
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-}
-.card:hover {
-  transition: 0.3s ease-in-out;
-}
-.card__default {
-  background: var(--sub-text-color-dark);
-}
-.card__default:hover {
-  background: var(--sub-text-color-dark--hover);
-}
-.card__light {
+.card-layout {
   background: var(--white-color);
+  margin: 0;
+  padding: 0.75rem;
 }
-.card__light:hover {
-  background: var(--pure-white-color);
-}
-.card__transparent {
-  background: none;
-}
-.card__transparent:hover {
-  background: var(--pure-white-color);
-}
-.card__sharp {
-  border-radius: 0.25rem;
-}
-.card__half-rounded {
+
+.rounded-card {
   border-radius: 0.5rem;
+}
+
+.shadow-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.fit-card {
+  width: 100%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }/*# sourceMappingURL=cards.css.map */

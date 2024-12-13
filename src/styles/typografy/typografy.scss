@@ -6,6 +6,7 @@
   --first-head-font-size: 32px;
   --sub-head-font-size: 20px;
   --text-font-size: 14px;
+  --big-text-font-size: 15px;
   --small-text-font-size: 11px;
 
   h1,
@@ -15,6 +16,11 @@
   h5,
   h6 {
     font-family: var(--font-heading);
+  }
+  a,li,p,span{
+    text-decoration: none;
+  }p{
+    margin-bottom:0;
   }
   .first-head {
     font-family: var(--font-heading);
@@ -46,6 +52,14 @@
   .text-dark-mode {
     font-size: var(--text-font-size);
     color: var(--text-color-light);
+    &:hover {
+      color: var(--text-color-light--hover);
+    }
+  }
+  .big-text-dark-mode {
+    font-size: var(--big-text-font-size)!important;
+    color: var(--text-color-light);
+    font-weight: 700;
     &:hover {
       color: var(--text-color-light--hover);
     }
@@ -89,7 +103,10 @@
   .text-success{
     color:var(--success-color);
   }
-  .text-active{
-    color:var(--active-color);
+  .italic{
+    font-style: italic;
+  }
+  .letter-spacing-005{
+    letter-spacing: 0.05em;
   }
 }
